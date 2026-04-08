@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <remote name="github" fetch="https://github.com/TaishanPi-Rockchip" />
+  <default remote="github" revision="TaishanPi-3-260402" clone-depth="1" />
+  <project name="android.rk.platform.system.rk_tee_user" path="external/security/rk_tee_user" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="android.rk.u-boot" path="u-boot" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.app.lvgl_demo" path="app/lvgl_demo" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.app.rkipc" path="app/rkipc" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.app.rkpartybox" path="app/rkpartybox" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.app.web-new.ipcweb-backend" path="app/ipcweb-backend" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.bsp.docs" path="docs" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.bsp.docs" path="docs/cn" revision="TaishanPi-3-260402" clone-depth="1" remote="github">
+    <linkfile src="Rockchip_Developer_Guide_Linux_Software_CN.pdf" dest="docs/cn/RK3576/Rockchip_Developer_Guide_Linux_Software_CN.pdf" />
+  </project>
+  <project name="linux.bsp.docs" path="docs/en" revision="TaishanPi-3-260402" clone-depth="1" remote="github">
+    <linkfile src="Rockchip_Developer_Guide_Linux_Software_EN.pdf" dest="docs/en/RK3576/Rockchip_Developer_Guide_Linux_Software_EN.pdf" />
+  </project>
+  <project name="linux.bsp.internal_doc" path="docs/cn/RK3576" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.bsp.internal_doc" path="docs/en/RK3576" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.bsp.rkadk" path="app/rkadk" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.build" path="yocto/build/conf" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.buildroot" path="buildroot" revision="TaishanPi-3-260402" clone-depth="1" remote="github">
+    <linkfile src="build/envsetup.sh" dest="envsetup.sh" />
+  </project>
+  <project name="linux.debian" path="debian" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.ubuntu" path="ubuntu" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.device.rockchip" path="device/rockchip" revision="TaishanPi-3-260402" clone-depth="1" remote="github">
+    <linkfile src="common/scripts/build.sh" dest="build.sh" />
+    <linkfile src="common/Makefile" dest="Makefile" />
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh" />
+  </project>
+  <project name="linux.drm-cursor" path="external/drm-cursor" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.alsa-config" path="external/alsa-config" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.chromium" path="external/chromium" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.common_algorithm" path="external/common_algorithm" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.dpdk" path="external/dpdk" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.minilogger" path="external/minilogger" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.rk_ethercat_release" path="external/rk_ethercat_release" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.rk_pcba_test" path="external/rk_pcba_test" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.rkscript" path="external/rkscript" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.rktoolkit" path="external/rktoolkit" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.rkupdate" path="external/rkupdate" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.rkwifibt" path="external/rkwifibt" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.rkwifibt-app" path="external/rkwifibt-app" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.rockit_uvc" path="external/rockit_uvc" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.uac_app" path="external/uac_app" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.external.uvc_app" path="external/uvc_app" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.gstreamer-rockchip" path="external/gstreamer-rockchip" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.ipc.media.avs" path="external/avs" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.ipc.media.iva" path="external/iva" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.ipc.media.samples" path="external/samples" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.libmali" path="external/libmali" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.linux-rga" path="external/linux-rga" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.yocto.meta-browser" path="yocto/meta-browser" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.yocto.meta-clang" path="yocto/meta-clang" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.yocto.meta-openembedded" path="yocto/meta-openembedded" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.poky" path="yocto/poky" revision="TaishanPi-3-260402" clone-depth="1" remote="github">
+    <linkfile src="scripts" dest="yocto/scripts" />
+    <linkfile src="bitbake" dest="yocto/bitbake" />
+    <linkfile src="meta-poky" dest="yocto/meta-poky" />
+    <linkfile src=".templateconf" dest="yocto/.templateconf" />
+    <linkfile src="oe-init-build-env" dest="yocto/oe-init-build-env" />
+  </project>
+  <project name="linux.recovery" path="external/recovery" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.rkfsmk" path="external/rkfsmk" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.rockchip-test" path="external/rockchip-test" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.rockit" path="external/rockit" revision="TaishanPi-3-260402" clone-depth="1" remote="github">
+    <linkfile src="." dest="rtos/bsp/rockchip/common/drivers/rockit" />
+  </project>
+  <project name="linux.security.bin" path="external/security/bin" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.tools" path="tools" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.xserver" path="external/xserver" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="linux.yocto.meta-rockchip" path="yocto/meta-rockchip" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.kernel-stable" path="kernel-6.1" revision="TaishanPi-3-260402" clone-depth="1" remote="github">
+    <linkfile src="." dest="kernel" />
+  </project>
+  <project name="rk.librkcrypto" path="external/security/librkcrypto" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.mcu.hal" path="hal" revision="TaishanPi-3-260402" clone-depth="1" remote="github">
+    <linkfile src="." dest="rtos/bsp/rockchip/common/hal" />
+  </project>
+  <project name="rk.mcu.hal.applications" path="hal/applications" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.mcu.hal.board" path="hal/board" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.mcu.hal.middleware" path="hal/middleware" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.mcu.hal.test" path="hal/test" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.mpp" path="external/mpp" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.prebuilts.arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-elf" path="prebuilts/gcc/linux-x86/aarch64/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-elf" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.prebuilts.gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.prebuilts.gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.prebuilts.gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux" path="prebuilts/gcc/linux-x86/arm/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.rkbin" path="rkbin" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.rknn-toolkit2" path="external/rknn-toolkit2" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rk.rknpu2" path="external/rknpu2" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rtos.rt-thread.docs" path="docs/rtt-docs" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rtos.rt-thread.rt-thread" path="rtos" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+  <project name="rtos.rt-thread.rtthread-apps" path="rtos/applications/rtthread-apps" revision="TaishanPi-3-260402" clone-depth="1" remote="github" />
+</manifest>
